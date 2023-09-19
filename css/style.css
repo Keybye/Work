@@ -1,0 +1,152 @@
+@import "Ani.css";
+*{
+    margin: 0;
+    padding: 0;
+    border:none;
+}
+body{
+    height: 100vh;width: 100vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.bCon{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 3;
+    background: rgba(100,100,100,.4);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+button{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    width: 80px;
+    background: #555555;
+    border-radius: 80px;
+    box-shadow: 0 0 8px  1px #999999;
+    margin: 20px;
+    z-index: 3;
+}
+button.hover{
+    background: #305040;
+}
+.Con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: wheat;
+    width: 100vw;
+    height: 100vh;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 0;
+    background:#faf7ed;
+}
+.top11{
+     width: 100vw;
+    height: 20vh;
+    background: #6b8c6a;
+    top:0;
+    position: fixed;
+    z-index: 3;
+}
+.top111{
+    width: 100vw;
+    height: 10vh;
+    top: 20vh;
+    background: #7b9e7c;
+    position: fixed;
+    z-index: 3;
+}
+.left1{
+    height: 100vh;
+    width: 20vw;
+    left: 0;
+    position: fixed;
+    background: #c0d1b0;
+    z-index: 2;
+}
+.right1{
+    height: 100vh;
+    width: 20vw;
+    right: 0;
+    position: fixed;
+    background: #c0d1b0;
+    z-index: 2;
+}
+.bottom1{
+    height: 10vh;
+    width:100vw;
+    bottom: 0;
+    position: fixed;
+    z-index: 3;
+    background: #C0D1B0;
+}
+
+.container{
+    /*设计容器大小并居中*/
+     width: 100%;
+     height: 100%;
+     left: 0;right: 0;top: 0;bottom: 0;
+     position: static;
+     z-index: 0;
+
+ }
+.center{
+    left: 0;right: 0;top: 0;bottom: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: #FAF7ED;
+    animation: infinite alternate 12s centerAni;
+}
+.top{
+    left: 0;right: 0;top: 0;bottom: 0;
+    width: 0;
+    height: 0;
+    position: fixed;
+    background: #305040;
+    animation: infinite alternate 12s topAni;
+}
+.top1{
+    left: 0;right: 0;top:10%;bottom: 0;
+    width: 0;
+    height: 10%;
+    position: fixed;
+    background: #6B8C7A;
+    animation: infinite alternate 12s top1Ani;
+}
+.left{
+    left: 0;right: 75%;
+    margin: auto;
+    width: 25%;
+    height: 0;
+    position: fixed;
+    background:#7B9E7C;
+    animation: infinite alternate 12s leftAni;
+}
+.right{
+    left: 75%;right: 0;
+    margin: auto;
+    width: 25%;
+    height: 0;
+    position: fixed;
+    background: #7B9E7C;
+    animation: infinite alternate 12s rightAni;
+}
+.bottom{
+    left: 0;right: 0;top: 90%;bottom: 0;
+    height: 10%;
+    width: 0;
+    position: fixed;
+    background: #C0D1B0;
+    animation: infinite alternate 12s bottomAni ;
+}
