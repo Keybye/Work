@@ -28,7 +28,7 @@ button{
     width: 80px;
     background: #555555;
     border-radius: 80px;
-    box-shadow: 0 0 8px  1px #999999;
+    box-shadow: 0 0 12px  1px #aaaaaa;
     margin: 20px;
     z-index: 3;
 }
