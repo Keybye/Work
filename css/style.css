@@ -105,7 +105,7 @@ button.hover{
     width: 100%;
     height: 100%;
     position: fixed;
-    background: #FAF7ED;
+    background: #faf7ed;
     animation: infinite alternate 12s centerAni;
 }
 .top{
@@ -113,7 +113,7 @@ button.hover{
     width: 0;
     height: 0;
     position: fixed;
-    background: #305040;
+    background: #6b8c6a;
     animation: infinite alternate 12s topAni;
 }
 .top1{
@@ -121,7 +121,7 @@ button.hover{
     width: 0;
     height: 10%;
     position: fixed;
-    background: #6B8C7A;
+    background: #7b9e7c;
     animation: infinite alternate 12s top1Ani;
 }
 .left{
@@ -130,7 +130,7 @@ button.hover{
     width: 25%;
     height: 0;
     position: fixed;
-    background:#7B9E7C;
+    background:#c0d1b0;
     animation: infinite alternate 12s leftAni;
 }
 .right{
@@ -139,7 +139,7 @@ button.hover{
     width: 25%;
     height: 0;
     position: fixed;
-    background: #7B9E7C;
+    background: #c0d1b0;
     animation: infinite alternate 12s rightAni;
 }
 .bottom{
